@@ -1,0 +1,138 @@
+.header {
+    padding: 8px 0;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+.header__nav-links {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.header__nav-links a {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+.header__nav-button {
+    padding: 12px 30px;
+    background-color: #65256F;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-banner {
+    background-image: url(./images/Main-banner.png);   
+    aspect-ratio: 1440/768;
+    padding: 190px 0;
+}
+
+.main-banner__wrapper {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    gap: 20px;
+    
+}
+
+.main-banner__content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+}
+
+.main-banner__content h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+}
+
+.main-banner__content h3 {
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+}
+
+.main-banner__content button {
+    background: #FFC957;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 80px;
+    border: none;
+    color: white;
+}
+
+.main-banner__social {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.main-banner__social-items {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.title_name {
+    font-size: 48px;
+    font-weight: 400;
+    padding: 60px;
+    text-align: center;
+    font-family: Qanelas;
+}
+
+.division__wrapper {
+    display: flex;
+    flex-direction: raw;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.sevice__text {
+    font-size: 16px;
+    font-weight: 400;
+    /* text-align: center; */
+    padding: 20px;
+}
+
+.division__content{
+    font-size: 18px;
+    font-weight: 400;
+    /* text-align: center; */
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+.service__number {
+    font-size: 14px;
+    font-weight: 400;
+    color: #753ED6;
+    padding: 30px;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+    
+}
+
+.division__work {
+    position: relative;
+
+}
